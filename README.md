@@ -10,6 +10,17 @@ A module that register a plugin which provides Code Snippet button: http://ckedi
 3. Adjust toolbar configuration - add CodeSnippet button to the toolbar.
 4. Save the text format settings.
 
+```
+  /**
+   * {@inheritdoc}
+   */
+  public function getConfig(Editor $editor) {
+    return array(
+      'codeSnippet_theme' => 'default',
+    );
+  }
+```
+
 ### License
 
 Copyright (c) 2003-2015, [CKSource](http://cksource.com/) - Frederico Knabben. All rights reserved.
