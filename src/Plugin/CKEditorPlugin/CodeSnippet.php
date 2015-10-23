@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Definition of \Drupal\colorbutton\Plugin\CKEditorPlugin\ColorButton.
+ * Definition of \Drupal\codesnippet\Plugin\CKEditorPlugin\CodeSnippet.
  */
 
 namespace Drupal\codesnippet\Plugin\CKEditorPlugin;
@@ -13,7 +13,7 @@ use Drupal\Component\Plugin\PluginBase;
 use Drupal\editor\Entity\Editor;
 
 /**
- * Defines the "ColorButton" plugin.
+ * Defines the "CodeSnippet" plugin.
  *
  * @CKEditorPlugin(
  *   id = "codesnippet",

@@ -1,8 +1,8 @@
 name: CKEditor CodeSnippet Button
 type: module
-description: This plugin adds code highlighter to the editor.
+description: This plugin lets you insert rich code snippets with syntax highlighting into the editor.
 core: 8.x
 package: CKEditor
-version: VERSION
+version: 1.x
 dependencies:
   - ckeditor
