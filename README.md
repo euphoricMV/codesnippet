@@ -10,15 +10,36 @@ A module that register a plugin which provides Code Snippet button: http://ckedi
 3. Adjust toolbar configuration - add CodeSnippet button to the toolbar.
 4. Save the text format settings.
 
+### Usage
+
+You can change which theme of code you want to use in text editor and field display.
+
+If you want to change theme in text editor, in /src/Plugin/CKEditorPlugin/CodeSnippet.php change theme name from default to, for example 'pojoaque',
+so code will look something like below:
+
 ```
   /**
    * {@inheritdoc}
    */
   public function getConfig(Editor $editor) {
     return array(
-      'codeSnippet_theme' => 'default',
+      'codeSnippet_theme' => 'pojoaque',
     );
   }
+```
+
+For changing theme of codesnippet in the field display(for example from 'default' to 'pojoaque'),
+change path of css file of theme in codesnippet.libraries.yml file like in code below:
+
+```
+code-snippet:
+  version: 1.x
+  css:
+    theme:
+      js/plugins/codesnippet/lib/highlight/styles/pojoaque.css: {}
+  js:
+    js/plugins/codesnippet/lib/highlight/highlight.pack.js: {}
+    js/codesnippet.js: {}
 ```
 
 ### License
