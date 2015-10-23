@@ -1,0 +1,8 @@
+code-snippet:
+  version: 1.x
+  css:
+    theme:
+      js/plugins/codesnippet/lib/highlight/styles/default.css: {}
+  js:
+    js/plugins/codesnippet/lib/highlight/highlight.pack.js: {}
+    js/codesnippet.js: {}
