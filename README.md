@@ -5,7 +5,7 @@ A module that register a plugin which provides Code Snippet button: http://ckedi
 
 ### Installation
 
-1. Download the [Code Snippet](https://github.com/wwalc/colorbutton) module, put it into the modules folder, then enable it.
+1. Download the [Code Snippet](https://github.com/euphoricMV/codesnippet) module, put it into the modules folder, then enable it.
 2. Edit selected text format where CKEditor is enabled.
 3. Adjust toolbar configuration - add CodeSnippet button to the toolbar.
 4. Save the text format settings.
