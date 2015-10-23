@@ -14,7 +14,7 @@ A module that register a plugin which provides Code Snippet button: http://ckedi
 
 You can change which theme of code you want to use in text editor and field display.
 
-If you want to change theme in text editor, in /src/Plugin/CKEditorPlugin/CodeSnippet.php change theme name from default to, for example 'pojoaque',
+If you want to change theme in text editor, in **/src/Plugin/CKEditorPlugin/CodeSnippet.php** change theme name from default to, for example 'pojoaque',
 so code will look something like below:
 
 ```
@@ -29,7 +29,7 @@ so code will look something like below:
 ```
 
 For changing theme of codesnippet in the field display(for example from 'default' to 'pojoaque'),
-change path of css file of theme in codesnippet.libraries.yml file like in code below:
+change path of css file of theme in **codesnippet.libraries.yml** file like in code below:
 
 ```
 code-snippet:
